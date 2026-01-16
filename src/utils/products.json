@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Tren E-250",
+    "title": "Trenbolone Enanthate",
+    "description": "A potent anabolic compound that significantly enhances muscle growth, power, and vascularity. Ideal for experienced users aiming for serious gains.",
+    "benefits": [
+      "Rapid lean muscle growth",
+      "Enhanced strength and endurance",
+      "Improved nitrogen retention",
+      "Accelerated recovery post-training"
+    ],
+    "contact": "Contact us on WhatsApp for availability and cycle recommendations.",
+    "images": ["/images/trenE250.jpeg", "/images/trenE250v2.jpeg"]
+  },
+  {
+    "id": 2,
+    "name": "Tren Mix-150",
+    "title": "Trenbolone Mix",
+    "description": "A premium blend of trenbolone esters designed for a powerful and sustained release effect throughout your cycle.",
+    "benefits": [
+      "Faster and longer-lasting results",
+      "Increased protein synthesis",
+      "High muscle density and hardness",
+      "No water retention"
+    ],
+    "contact": "For purchase inquiries, message us directly on WhatsApp.",
+    "images": ["/images/trenMixV1.jpeg", "/images/trenMixV2.jpeg"]
+  },
+  {
+    "id": 3,
+    "name": "Winni - 100",
+    "title": "Winstrol",
+    "description": "High-quality Winstrol designed for cutting cycles, promoting lean muscle mass and definition.",
+    "benefits": [
+      "Improves muscle tone and definition",
+      "Boosts strength without weight gain",
+      "Reduces water retention",
+      "Ideal for pre-contest cycles"
+    ],
+    "contact": "Reach us on WhatsApp for detailed cycle guidance.",
+    "images": ["/images/winni100v1.jpeg", "/images/winni100v2.jpeg"]
+  },
+  {
+    "id": 4,
+    "name": "Deca-300",
+    "title": "Nandrolone Decanoate",
+    "description": "One of the most trusted compounds for muscle building and recovery enhancement with minimal side effects.",
+    "benefits": [
+      "Increases muscle size and strength",
+      "Improves joint health",
+      "Supports faster recovery",
+      "Long-lasting anabolic effect"
+    ],
+    "contact": "Contact our support team for bulk orders and deals.",
+    "images": ["/images/deca300v1.jpeg", "/images/deca300v2.jpeg"]
+  },
+  {
+    "id": 5,
+    "name": "Heli Power",
+    "title": "Helios",
+    "description": "A cutting-edge fat-burning supplement that helps accelerate metabolism and improve energy levels.",
+    "benefits": [
+      "Boosts metabolism",
+      "Enhances energy output",
+      "Promotes fat loss",
+      "Improves endurance during workouts"
+    ],
+    "contact": "Get in touch for personalized cutting stack suggestions.",
+    "images": ["/images/helipowerv1.jpeg", "/images/helipowerv2.jpeg"]
+  },
+  {
+    "id": 6,
+    "name": "L-Carni Blast",
+    "title": "L-Carnitine",
+    "description": "A natural fat metabolizer that converts stored fat into usable energy while enhancing endurance.",
+    "benefits": [
+      "Supports fat metabolism",
+      "Improves stamina and focus",
+      "Boosts athletic performance",
+      "Aids in post-workout recovery"
+    ],
+    "contact": "Contact us for pricing and recommended usage protocols.",
+    "images": ["/images/Lcarniv1.jpeg", "/images/Lcarniv2.jpeg"]
+  },
+  {
+    "id": 7,
+    "name": "Ment-100",
+    "title": "Trestolone Acetate",
+    "description": "An advanced anabolic compound with potent muscle-building and strength-enhancing properties.",
+    "benefits": [
+      "Explosive muscle growth",
+      "Increased testosterone conversion",
+      "Accelerated strength gains",
+      "Improved protein synthesis"
+    ],
+    "contact": "Reach out to us for cycle customization and dosage plans.",
+    "images": ["/images/ment100v1.jpeg", "/images/ment100v2.jpeg"]
+  },
+  {
+    "id": 8,
+    "name": "Mest-100",
+    "title": "Drostanolone Propionate",
+    "description": "Commonly known as Masteron, this product enhances muscle hardness and fat reduction during cutting phases.",
+    "benefits": [
+      "Promotes lean, defined muscle look",
+      "Reduces estrogenic side effects",
+      "Boosts metabolism naturally",
+      "No water retention"
+    ],
+    "contact": "Message us to learn how to stack this with other compounds.",
+    "images": ["/images/mest100v1.jpeg", "/images/mest100v2.jpeg"]
+  },
+  {
+    "id": 9,
+    "name": "NPP-100",
+    "title": "Nandrolone Phenylpropionate",
+    "description": "A fast-acting anabolic compound ideal for gaining quality muscle and improving recovery.",
+    "benefits": [
+      "Builds lean muscle mass",
+      "Increases endurance and stamina",
+      "Improves collagen synthesis",
+      "Shorter half-life for flexible dosing"
+    ],
+    "contact": "Contact us for delivery options and stacking advice.",
+    "images": ["/images/npp100v1.jpeg", "/images/npp100v2.jpeg"]
+  },
+  {
+    "id": 10,
+    "name": "Prima-100",
+    "title": "Methenolone Enanthate",
+    "description": "A mild anabolic agent preferred for lean mass retention and minimal side effects.",
+    "benefits": [
+      "Preserves muscle during calorie deficit",
+      "Improves muscle definition",
+      "Enhances strength with minimal risk",
+      "Non-aromatizing formula"
+    ],
+    "contact": "Message us for cycle recommendations and stock info.",
+    "images": ["/images/prima100v1.jpeg", "/images/prima100v2.jpeg"]
+  },
+  {
+    "id": 11,
+    "name": "SUSTA-250",
+    "title": "Testosterone Mix",
+    "description": "A multi-ester testosterone blend for both fast and long-term anabolic support.",
+    "benefits": [
+      "Stable testosterone levels",
+      "Boosts libido and energy",
+      "Improves strength and recovery",
+      "Perfect for base cycles"
+    ],
+    "contact": "Get in touch for proper stack pairing guidance.",
+    "images": ["/images/susta250v1.jpeg", "/images/susta250v2.jpeg"]
+  },
+  {
+    "id": 12,
+    "name": "Testa C-250",
+    "title": "Testosterone Cypionate",
+    "description": "A long-acting testosterone ester for consistent performance enhancement and muscle growth.",
+    "benefits": [
+      "Sustained testosterone release",
+      "Promotes lean mass gain",
+      "Enhances recovery and focus",
+      "Boosts vitality"
+    ],
+    "contact": "Message us for personalized testosterone cycles.",
+    "images": ["/images/testacv1.jpeg", "/images/testacv2.jpeg"]
+  },
+  {
+    "id": 13,
+    "name": "Testa E-250",
+    "title": "Testosterone Enanthate",
+    "description": "A classic and reliable testosterone ester known for balanced strength and endurance enhancement.",
+    "benefits": [
+      "Increases muscle density",
+      "Boosts energy and stamina",
+      "Enhances mood and libido",
+      "Reduces post-cycle fatigue"
+    ],
+    "contact": "Contact us to discuss bulk pricing options.",
+    "images": ["/images/testaEv1.jpeg", "/images/testaEv2.jpeg"]
+  },
+  {
+    "id": 14,
+    "name": "Testa P-125",
+    "title": "Testosterone Propionate",
+    "description": "A fast-acting testosterone ester known for quick results and lean muscle development.",
+    "benefits": [
+      "Fast absorption and effect",
+      "Improves strength rapidly",
+      "Reduces water retention",
+      "Supports lean muscle gain"
+    ],
+    "contact": "Message us for stacking and cycle optimization tips.",
+    "images": ["/images/testaPv1.jpeg", "/images/testaPv2.jpeg"]
+  },
+  {
+    "id": 15,
+    "name": "Tren H-100",
+    "title": "Trenbolone Hexahydrobenzylcarbonate",
+    "description": "A long-acting trenbolone ester offering sustained anabolic effects and exceptional results.",
+    "benefits": [
+      "Long-lasting anabolic effect",
+      "Promotes dense muscle structure",
+      "Improves strength and aggression",
+      "Reduces body fat efficiently"
+    ],
+    "contact": "Get in touch for dosage guide and stock availability.",
+    "images": ["/images/trenHv1.jpeg", "/images/trenHv2.jpeg"]
+  },
+  {
+    "id": 16,
+    "name": "Tren A-100",
+    "title": "Trenbolone Acetate",
+    "description": "A short-acting and highly potent anabolic agent for rapid strength and muscle gains.",
+    "benefits": [
+      "Accelerated muscle growth",
+      "Enhanced nitrogen retention",
+      "No water retention",
+      "Rapid recovery post workouts"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/trenAv1.jpeg", "/images/trenAv2.jpeg"]
+  }
+]
