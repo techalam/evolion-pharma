@@ -18,16 +18,25 @@ export default function Home() {
       {/* ================= HERO ================= */}
       {/* ================= HERO ================= */}
       <section className="relative flex items-center justify-center overflow-hidden min-h-[85vh] md:min-h-[90vh]">
-        {/* Background */}
+        {/* Desktop background */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:bg-top"
+          className="absolute inset-0 hidden md:block bg-cover bg-top"
           style={{
             backgroundImage: "url('/images/bg-img.png')",
           }}
         />
 
+        {/* Mobile background */}
+        <div
+          className="absolute inset-0 block md:hidden bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/builder2.png')",
+            backgroundPosition: "right"
+          }}
+        />
+
         {/* Overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.92)_0%,rgba(0,0,0,0.75)_45%,rgba(0,0,0,0.35)_75%,rgba(0,0,0,0.15)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.45)_0%,rgba(0,0,0,0.75)_45%,rgba(0,0,0,0.35)_75%,rgba(0,0,0,0.15)_100%)]" />
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-6xl px-5 sm:px-6 text-center">
@@ -188,49 +197,46 @@ export default function Home() {
       </section>
 
       <section className="py-20 px-6 max-w-7xl mx-auto">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    
-    {/* TEXT */}
-    <div>
-      <h2 className="text-3xl md:text-4xl font-bold mb-6">
-        Manufacturing & Quality Standards
-      </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* TEXT */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Manufacturing & Quality Standards
+            </h2>
 
-      <p className="text-zinc-400 max-w-xl leading-relaxed mb-10">
-        Evolion partners with qualified manufacturing facilities operating
-        under controlled environments. Our approach prioritizes batch
-        consistency, raw-material traceability, and controlled processing.
-      </p>
+            <p className="text-zinc-400 max-w-xl leading-relaxed mb-10">
+              Evolion partners with qualified manufacturing facilities operating
+              under controlled environments. Our approach prioritizes batch
+              consistency, raw-material traceability, and controlled processing.
+            </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <QualityItem
-          icon={<Factory />}
-          text="Controlled manufacturing environments"
-        />
-        <QualityItem
-          icon={<FlaskConical />}
-          text="Batch-wise quality testing"
-        />
-        <QualityItem
-          icon={<ShieldCheck />}
-          text="Documented audits & quality checks"
-        />
-      </div>
-    </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <QualityItem
+                icon={<Factory />}
+                text="Controlled manufacturing environments"
+              />
+              <QualityItem
+                icon={<FlaskConical />}
+                text="Batch-wise quality testing"
+              />
+              <QualityItem
+                icon={<ShieldCheck />}
+                text="Documented audits & quality checks"
+              />
+            </div>
+          </div>
 
-    {/* IMAGE */}
-    <div className="relative h-[260px] sm:h-[380px] rounded-2xl overflow-hidden">
-      <img
-        src="/images/lab.png"
-        alt="Evolion manufacturing and quality control"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      <div className="absolute inset-0 bg-gradient-to-l from-black/70 to-transparent" />
-    </div>
-
-  </div>
-</section>
-
+          {/* IMAGE */}
+          <div className="relative h-[260px] sm:h-[380px] rounded-2xl overflow-hidden">
+            <img
+              src="/images/lab.png"
+              alt="Evolion manufacturing and quality control"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-l from-black/70 to-transparent" />
+          </div>
+        </div>
+      </section>
 
       {/* ================= MANUFACTURING ================= */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
