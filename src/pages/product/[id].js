@@ -1,145 +1,170 @@
 "use client";
-import { motion } from "framer-motion";
+
 import { useState } from "react";
-import { CheckCircle, Mail, Phone, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
-import { useParams } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  CheckCircle,
+  Mail,
+  Phone,
+  MapPin,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 import Products from "../../utils/products.json";
 import { useRouter } from "next/router";
-
 
 export default function ProductDetail() {
   const router = useRouter();
   const { id } = router.query;
-  const product = Products.find((p) => p.id === Number(id));
 
+  const product = Products.find((p) => p.id === Number(id));
   const [index, setIndex] = useState(0);
 
   if (!product) {
     return (
-      <main className="flex items-center justify-center min-h-screen text-zinc-600 text-xl">
+      <main className="flex items-center justify-center min-h-screen bg-black text-zinc-500">
         Product not found.
       </main>
     );
   }
 
-  const nextImage = () => setIndex((prev) => (prev + 1) % product.images.length);
-  const prevImage = () => setIndex((prev) => (prev - 1 + product.images.length) % product.images.length);
+  const nextImage = () =>
+    setIndex((prev) => (prev + 1) % product.images.length);
+  const prevImage = () =>
+    setIndex((prev) => (prev - 1 + product.images.length) % product.images.length);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-emerald-50 text-zinc-900 overflow-hidden">
-      <section className="max-w-7xl mx-auto py-12 px-6 flex flex-col lg:flex-row gap-16 items-center">
-        {/* Left - Image Carousel */}
-        <div className="relative w-full lg:w-1/2 flex justify-center items-center">
-          <div className="overflow-hidden rounded-3xl shadow-lg w-full aspect-[4/3] relative border-zinc-100">
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.95 }}
-              transition={{ duration: 0.6 }}
-              className="absolute inset-0"
-            >
-              <img
+    <main className="min-h-screen bg-[#0b0b0b] text-zinc-200 overflow-hidden">
+      <section className="max-w-7xl mx-auto px-6 pt-28 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+        {/* ================= LEFT — IMAGE CAROUSEL ================= */}
+        <div className="relative w-full">
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-zinc-800 bg-[#111]">
+            <AnimatePresence mode="wait">
+              <motion.img
+                key={index}
                 src={product.images[index]}
                 alt={product.name}
-                className="w-full h-full object-cover rounded-3xl"
+                initial={{ opacity: 0, scale: 0.97 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.97 }}
+                transition={{ duration: 0.4 }}
+                className="absolute inset-0 w-full h-full object-cover"
               />
-            </motion.div>
+            </AnimatePresence>
           </div>
 
           {/* Arrows */}
-          <button
-            onClick={prevImage}
-            className="absolute left-4 p-2 bg-white/70 backdrop-blur-md rounded-full shadow-md hover:bg-white transition"
-          >
-            <ChevronLeft className="text-emerald-700" size={24} />
-          </button>
-          <button
-            onClick={nextImage}
-            className="absolute right-4 p-2 bg-white/70 backdrop-blur-md rounded-full shadow-md hover:bg-white transition"
-          >
-            <ChevronRight className="text-emerald-700" size={24} />
-          </button>
+          {product.images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/60 border border-zinc-700 hover:border-[#d3a96f] transition"
+              >
+                <ChevronLeft size={20} className="text-[#d3a96f]" />
+              </button>
+
+              <button
+                onClick={nextImage}
+                className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/60 border border-zinc-700 hover:border-[#d3a96f] transition"
+              >
+                <ChevronRight size={20} className="text-[#d3a96f]" />
+              </button>
+            </>
+          )}
 
           {/* Dots */}
-          <div className="absolute bottom-4 flex gap-2 justify-center w-full">
-            {product.images.map((_, i) => (
-              <div
-                key={i}
-                onClick={() => setIndex(i)}
-                className={`w-2.5 h-2.5 rounded-full cursor-pointer transition-all ${
-                  i === index ? "bg-emerald-600" : "bg-zinc-300"
-                }`}
-              />
-            ))}
-          </div>
-
-          {/* Floating Glow */}
-          <motion.div
-            className="absolute -z-10 blur-3xl opacity-40 bg-emerald-400 rounded-full w-[300px] h-[300px] top-20 left-10"
-            animate={{ scale: [1, 1.1, 1], opacity: [0.4, 0.6, 0.4] }}
-            transition={{ repeat: Infinity, duration: 6 }}
-          />
+          {product.images.length > 1 && (
+            <div className="mt-4 flex justify-center gap-2">
+              {product.images.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setIndex(i)}
+                  className={`w-2.5 h-2.5 rounded-full transition ${
+                    i === index ? "bg-[#d3a96f]" : "bg-zinc-600"
+                  }`}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
-        {/* Right - Product Info */}
+        {/* ================= RIGHT — PRODUCT INFO ================= */}
         <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }}
-          className="w-full lg:w-1/2"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
         >
-          <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-cyan-600 mb-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#d3a96f] mb-4">
             {product.name}
           </h1>
-          <p className="text-lg text-zinc-600 mb-6">{product.subtitle}</p>
-          <p className="text-zinc-700 leading-relaxed mb-8">{product.description}</p>
 
-          <ul className="space-y-3 mb-12">
+          {product.subtitle && (
+            <p className="text-sm text-zinc-400 mb-6">
+              {product.subtitle}
+            </p>
+          )}
+
+          <p className="text-zinc-300 leading-relaxed mb-10">
+            {product.description}
+          </p>
+
+          {/* Athlete / Usage Image */}
+          <div className="relative h-[220px] sm:h-[300px] rounded-2xl overflow-hidden mb-12">
+            <img
+              src="/images/athlete2.png"
+              alt="Evolion product in training use"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent" />
+          </div>
+
+          {/* Benefits */}
+          <ul className="space-y-4 mb-14">
             {product.benefits.map((benefit, i) => (
-              <motion.li
+              <li
                 key={i}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.3 + i * 0.1 }}
-                className="flex items-center gap-3 text-zinc-700"
+                className="flex items-start gap-3 text-sm text-zinc-300"
               >
-                <CheckCircle className="text-emerald-600" size={20} />
+                <CheckCircle size={18} className="text-[#d3a96f] mt-0.5" />
                 {benefit}
-              </motion.li>
+              </li>
             ))}
           </ul>
 
-          {/* Contact Details */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.7 }}
-            className="p-8 rounded-3xl bg-white/70 backdrop-blur-lg border border-zinc-200 shadow-xl"
-          >
-            <h3 className="text-2xl font-bold text-emerald-700 mb-6">
-              Contact for Orders & Enquiries
+          {/* ================= CONTACT ================= */}
+          <div className="rounded-2xl bg-[#111] border border-zinc-800 p-8">
+            <h3 className="text-xl font-semibold text-[#d3a96f] mb-6">
+              Orders & Enquiries
             </h3>
 
-            <div className="flex flex-col gap-4 text-zinc-700">
+            <div className="space-y-4 text-sm text-zinc-300">
               <div className="flex items-center gap-3">
-                <Mail className="text-emerald-600" size={20} />
-                <a href="mailto:workinganabolic@gmail.com" className="hover:text-emerald-600 transition">
+                <Mail size={18} className="text-[#d3a96f]" />
+                <a
+                  href="mailto:workinganabolic@gmail.com"
+                  className="hover:text-[#d3a96f] transition"
+                >
                   workinganabolic@gmail.com
                 </a>
               </div>
+
               <div className="flex items-center gap-3">
-                <Phone className="text-emerald-600" size={20} />
-                <a href="tel:+919899646864" className="hover:text-emerald-600 transition">
+                <Phone size={18} className="text-[#d3a96f]" />
+                <a
+                  href="tel:+919899646864"
+                  className="hover:text-[#d3a96f] transition"
+                >
                   +91 98996 46864
                 </a>
               </div>
+
               <div className="flex items-center gap-3">
-                <MapPin className="text-emerald-600" size={20} />
-                <p>Delhi, India</p>
+                <MapPin size={18} className="text-[#d3a96f]" />
+                <span>Delhi, India</span>
               </div>
             </div>
-          </motion.div>
+          </div>
         </motion.div>
       </section>
     </main>
