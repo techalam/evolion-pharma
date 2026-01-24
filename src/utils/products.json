@@ -11,7 +11,7 @@
       "Accelerated recovery post-training"
     ],
     "contact": "Contact us on WhatsApp for availability and cycle recommendations.",
-    "images": ["/images/trenE250.jpeg", "/images/trenE250v2.jpeg"]
+    "images": ["/images/trenE250.jpeg"]
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "No water retention"
     ],
     "contact": "For purchase inquiries, message us directly on WhatsApp.",
-    "images": ["/images/trenMixV1.jpeg", "/images/trenMixV2.jpeg"]
+    "images": ["/images/trenMixV1.jpeg"]
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "Ideal for pre-contest cycles"
     ],
     "contact": "Reach us on WhatsApp for detailed cycle guidance.",
-    "images": ["/images/winni100v1.jpeg", "/images/winni100v2.jpeg"]
+    "images": ["/images/winni100v1.jpeg"]
   },
   {
     "id": 4,
@@ -53,11 +53,11 @@
       "Long-lasting anabolic effect"
     ],
     "contact": "Contact our support team for bulk orders and deals.",
-    "images": ["/images/deca300v1.jpeg", "/images/deca300v2.jpeg"]
+    "images": ["/images/deca300v1.jpeg"]
   },
   {
     "id": 5,
-    "name": "Heli Power",
+    "name": "Heli-Pro",
     "title": "Helios",
     "description": "A cutting-edge fat-burning supplement that helps accelerate metabolism and improve energy levels.",
     "benefits": [
@@ -67,11 +67,11 @@
       "Improves endurance during workouts"
     ],
     "contact": "Get in touch for personalized cutting stack suggestions.",
-    "images": ["/images/helipowerv1.jpeg", "/images/helipowerv2.jpeg"]
+    "images": ["/images/helipowerv1.jpeg"]
   },
   {
     "id": 6,
-    "name": "L-Carni Blast",
+    "name": "L-Carni-1000",
     "title": "L-Carnitine",
     "description": "A natural fat metabolizer that converts stored fat into usable energy while enhancing endurance.",
     "benefits": [
@@ -81,21 +81,21 @@
       "Aids in post-workout recovery"
     ],
     "contact": "Contact us for pricing and recommended usage protocols.",
-    "images": ["/images/Lcarniv1.jpeg", "/images/Lcarniv2.jpeg"]
+    "images": ["/images/Lcarniv1.jpeg"]
   },
   {
     "id": 7,
-    "name": "Ment-100",
-    "title": "Trestolone Acetate",
-    "description": "An advanced anabolic compound with potent muscle-building and strength-enhancing properties.",
+    "name": "Bold-300",
+    "title": "Boldenone Undecylenate",
+    "description": "A powerful anabolic steroid that promotes substantial muscle mass and strength gains with a steady release profile.",
     "benefits": [
-      "Explosive muscle growth",
-      "Increased testosterone conversion",
-      "Accelerated strength gains",
-      "Improved protein synthesis"
+      "Enhances lean muscle growth",
+      "Increases appetite and nutrient efficiency",
+      "Improves red blood cell production",
+      "Long-lasting effects with minimal injections"
     ],
     "contact": "Reach out to us for cycle customization and dosage plans.",
-    "images": ["/images/ment100v1.jpeg", "/images/ment100v2.jpeg"]
+    "images": ["/images/bold300v1.jpeg"]
   },
   {
     "id": 8,
@@ -109,21 +109,7 @@
       "No water retention"
     ],
     "contact": "Message us to learn how to stack this with other compounds.",
-    "images": ["/images/mest100v1.jpeg", "/images/mest100v2.jpeg"]
-  },
-  {
-    "id": 9,
-    "name": "NPP-100",
-    "title": "Nandrolone Phenylpropionate",
-    "description": "A fast-acting anabolic compound ideal for gaining quality muscle and improving recovery.",
-    "benefits": [
-      "Builds lean muscle mass",
-      "Increases endurance and stamina",
-      "Improves collagen synthesis",
-      "Shorter half-life for flexible dosing"
-    ],
-    "contact": "Contact us for delivery options and stacking advice.",
-    "images": ["/images/npp100v1.jpeg", "/images/npp100v2.jpeg"]
+    "images": ["/images/mest100v1.jpeg"]
   },
   {
     "id": 10,
@@ -137,7 +123,7 @@
       "Non-aromatizing formula"
     ],
     "contact": "Message us for cycle recommendations and stock info.",
-    "images": ["/images/prima100v1.jpeg", "/images/prima100v2.jpeg"]
+    "images": ["/images/prima100v1.jpeg"]
   },
   {
     "id": 11,
@@ -151,7 +137,7 @@
       "Perfect for base cycles"
     ],
     "contact": "Get in touch for proper stack pairing guidance.",
-    "images": ["/images/susta250v1.jpeg", "/images/susta250v2.jpeg"]
+    "images": ["/images/susta250v1.jpeg"]
   },
   {
     "id": 12,
@@ -165,7 +151,7 @@
       "Boosts vitality"
     ],
     "contact": "Message us for personalized testosterone cycles.",
-    "images": ["/images/testacv1.jpeg", "/images/testacv2.jpeg"]
+    "images": ["/images/testacv1.jpeg"]
   },
   {
     "id": 13,
@@ -179,7 +165,7 @@
       "Reduces post-cycle fatigue"
     ],
     "contact": "Contact us to discuss bulk pricing options.",
-    "images": ["/images/testaEv1.jpeg", "/images/testaEv2.jpeg"]
+    "images": ["/images/testaEv1.jpeg"]
   },
   {
     "id": 14,
@@ -193,7 +179,7 @@
       "Supports lean muscle gain"
     ],
     "contact": "Message us for stacking and cycle optimization tips.",
-    "images": ["/images/testaPv1.jpeg", "/images/testaPv2.jpeg"]
+    "images": ["/images/testaPv1.jpeg"]
   },
   {
     "id": 15,
@@ -207,7 +193,7 @@
       "Reduces body fat efficiently"
     ],
     "contact": "Get in touch for dosage guide and stock availability.",
-    "images": ["/images/trenHv1.jpeg", "/images/trenHv2.jpeg"]
+    "images": ["/images/trenHv1.jpeg"]
   },
   {
     "id": 16,
@@ -221,6 +207,6 @@
       "Rapid recovery post workouts"
     ],
     "contact": "Reach us for premium quality and cycle support.",
-    "images": ["/images/trenAv1.jpeg", "/images/trenAv2.jpeg"]
+    "images": ["/images/trenAv1.jpeg"]
   }
 ]
