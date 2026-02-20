@@ -8,7 +8,7 @@ const Footer = () => {
     { name: "Products", href: "/products" },
     { name: "About Us", href: "/about-us" },
     { name: "Contact", href: "/contact-us" },
-    { name: "Product Verification", href: "/product-verification" },
+    { name: "Product Verification", href: "/authenticate" },
   ];
 
   return (
@@ -41,9 +41,9 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h3 className="text-[#d3a96f] font-semibold mb-2">Contact Us</h3>
-          <p className="text-sm">Email: info@evolionpharma.com</p>
-          <p className="text-sm">Phone: +91 98765 43210</p>
-          <p className="text-sm">Address: 123 Corporate Blvd, Mumbai, India</p>
+          <p className="text-sm">Email: workinganabolic@gmail.com</p>
+          {/* <p className="text-sm">Phone: +91 98765 43210</p>
+          <p className="text-sm">Address: 123 Corporate Blvd, Mumbai, India</p> */}
         </div>
       </div>
 

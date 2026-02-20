@@ -149,7 +149,7 @@ export default function ProductDetail() {
                 </a>
               </div>
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <Phone size={18} className="text-[#d3a96f]" />
                 <a
                   href="tel:+919899646864"
@@ -157,7 +157,7 @@ export default function ProductDetail() {
                 >
                   +91 98996 46864
                 </a>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-[#d3a96f]" />

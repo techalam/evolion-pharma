@@ -16,7 +16,7 @@ export default function Authenticate() {
   const [loading, setLoading] = useState(false);
 
   const API_BASE =
-    "https://script.google.com/macros/s/AKfycbwlWmVGG6v9jAuTcdaCNMr_sqTnDfbVeXdTMsTJLjgSlivh-rNTpnkhqwNvlPCPcZAy/exec";
+    "https://script.google.com/macros/s/AKfycbzISphhgOD_f0Jcr1tUFL35UKeMPUFgrevkd6d4P0XxFy1Xv5AZzVsFTaj5WFK6qLpwLw/exec";
   const SECRET_KEY = "asdfghjkl";
 
   const handleCheck = async () => {
