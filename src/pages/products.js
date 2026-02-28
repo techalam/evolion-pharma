@@ -7,10 +7,18 @@ import Link from "next/link";
 
 export default function ProductsPage() {
   const [search, setSearch] = useState("");
+  const [activeTab, setActiveTab] = useState("All");
+  const tabs = ["All", "Injectable", "Oral", "SARMS", "Peptide"];
 
-  const filtered = Products.filter((product) =>
-    product.name.toLowerCase().includes(search.toLowerCase())
-  );
+  const filtered = Products.filter((product) => {
+    const matchesSearch = product.name
+      .toLowerCase()
+      .includes(search.toLowerCase());
+
+    const matchesType = activeTab === "All" || product.type?.toLowerCase() === activeTab?.toLowerCase();
+
+    return matchesSearch && matchesType;
+  });
 
   return (
     <main className="relative min-h-screen bg-[#0b0b0b] text-zinc-100 px-6 sm:px-10 py-20 overflow-hidden">
@@ -46,6 +54,29 @@ export default function ProductsPage() {
         alt="Evolion nutraceutical product lineup"
         className="w-full max-w-6xl mx-auto rounded-2xl"
       />
+
+      {/* ================= TABS ================= */}
+      <div className="relative z-10 max-w-7xl mx-auto mb-14">
+        <div className="flex flex-wrap justify-center gap-3">
+          {tabs.map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`
+          px-6 py-3 rounded-full text-sm font-medium transition-all duration-300
+          border
+          ${
+            activeTab === tab
+              ? "bg-[#d3a96f] text-black border-[#d3a96f] shadow-lg shadow-[#d3a96f]/30"
+              : "bg-[#141414] text-zinc-300 border-zinc-800 hover:border-[#d3a96f] hover:text-white"
+          }
+        `}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+      </div>
 
       {/* ================= SEARCH ================= */}
       <div className="relative z-10 max-w-xl mx-auto mb-20">

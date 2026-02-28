@@ -169,13 +169,13 @@ export default function Contact() {
               </div>
             </div> */}
 
-            <div className="flex items-start gap-4">
+            {/* <div className="flex items-start gap-4">
               <MapPin className="text-[#d3a96f] mt-1" size={18} />
               <div>
                 <p className="font-medium text-white">Location</p>
                 <p className="text-zinc-400">Delhi, India</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <p className="text-xs text-zinc-500 max-w-md leading-relaxed">

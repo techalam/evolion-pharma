@@ -11,7 +11,8 @@
       "Accelerated recovery post-training"
     ],
     "contact": "Contact us on WhatsApp for availability and cycle recommendations.",
-    "images": ["/images/trenE250.jpeg"]
+    "images": ["/images/trenE250.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "No water retention"
     ],
     "contact": "For purchase inquiries, message us directly on WhatsApp.",
-    "images": ["/images/trenMixV1.jpeg"]
+    "images": ["/images/trenMixV1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "Ideal for pre-contest cycles"
     ],
     "contact": "Reach us on WhatsApp for detailed cycle guidance.",
-    "images": ["/images/winni100v1.jpeg"]
+    "images": ["/images/winni100v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "Long-lasting anabolic effect"
     ],
     "contact": "Contact our support team for bulk orders and deals.",
-    "images": ["/images/deca300v1.jpeg"]
+    "images": ["/images/deca300v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "Improves endurance during workouts"
     ],
     "contact": "Get in touch for personalized cutting stack suggestions.",
-    "images": ["/images/helipowerv1.jpeg"]
+    "images": ["/images/helipowerv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "Aids in post-workout recovery"
     ],
     "contact": "Contact us for pricing and recommended usage protocols.",
-    "images": ["/images/Lcarniv1.jpeg"]
+    "images": ["/images/Lcarniv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "Long-lasting effects with minimal injections"
     ],
     "contact": "Reach out to us for cycle customization and dosage plans.",
-    "images": ["/images/bold300v1.jpeg"]
+    "images": ["/images/bold300v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "No water retention"
     ],
     "contact": "Message us to learn how to stack this with other compounds.",
-    "images": ["/images/mest100v1.jpeg"]
+    "images": ["/images/mest100v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 10,
@@ -123,7 +131,8 @@
       "Non-aromatizing formula"
     ],
     "contact": "Message us for cycle recommendations and stock info.",
-    "images": ["/images/prima100v1.jpeg"]
+    "images": ["/images/prima100v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 11,
@@ -137,7 +146,8 @@
       "Perfect for base cycles"
     ],
     "contact": "Get in touch for proper stack pairing guidance.",
-    "images": ["/images/susta250v1.jpeg"]
+    "images": ["/images/susta250v1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 12,
@@ -151,7 +161,8 @@
       "Boosts vitality"
     ],
     "contact": "Message us for personalized testosterone cycles.",
-    "images": ["/images/testacv1.jpeg"]
+    "images": ["/images/testacv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 13,
@@ -165,7 +176,8 @@
       "Reduces post-cycle fatigue"
     ],
     "contact": "Contact us to discuss bulk pricing options.",
-    "images": ["/images/testaEv1.jpeg"]
+    "images": ["/images/testaEv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 14,
@@ -179,7 +191,8 @@
       "Supports lean muscle gain"
     ],
     "contact": "Message us for stacking and cycle optimization tips.",
-    "images": ["/images/testaPv1.jpeg"]
+    "images": ["/images/testaPv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 15,
@@ -193,7 +206,8 @@
       "Reduces body fat efficiently"
     ],
     "contact": "Get in touch for dosage guide and stock availability.",
-    "images": ["/images/trenHv1.jpeg"]
+    "images": ["/images/trenHv1.jpeg"],
+    "type": "injectable"
   },
   {
     "id": 16,
@@ -207,6 +221,127 @@
       "Rapid recovery post workouts"
     ],
     "contact": "Reach us for premium quality and cycle support.",
-    "images": ["/images/trenAv1.jpeg"]
+    "images": ["/images/trenAv1.jpeg"],
+    "type": "injectable"
+  },
+  {
+    "id": 17,
+    "name": "Androl-50",
+    "title": "Oxymetholone",
+    "description": "A powerful oral anabolic steroid known for significant strength and mass gains, often used in bulking cycles.",
+    "benefits": [
+      "Dramatic increase in muscle mass",
+      "Significant strength enhancement",
+      "Improved red blood cell production",
+      "Rapid results within weeks"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/androl-50.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 18,
+    "name": "Turninabol",
+    "title": "Oxymetholone",
+    "description": "A powerful oral anabolic steroid known for significant strength and mass gains, often used in bulking cycles.",
+    "benefits": [
+      "Dramatic increase in muscle mass",
+      "Significant strength enhancement",
+      "Improved red blood cell production",
+      "Rapid results within weeks"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/turninabol.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 19,
+    "name": "Clen-40",
+    "title": "Clenbuterol",
+    "description": "A powerful bronchodilator that also promotes fat loss and muscle preservation, making it a popular choice for cutting cycles.",
+    "benefits": [
+      "Accelerates fat loss",
+      "Preserves lean muscle mass",
+      "Improves cardiovascular performance",
+      "Enhances energy and focus"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/clen-40.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 20,
+    "name": "Anavar-10",
+    "title": "Oxandrolone",
+    "description": "A mild oral anabolic steroid favored for its ability to promote lean muscle mass and strength without significant side effects.",
+    "benefits": [
+      "Promotes lean muscle growth",
+      "Enhances strength and endurance",
+      "Reduces body fat",
+      "Minimal androgenic side effects"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/anavar-10.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 21,
+    "name": "Daina-10",
+    "title": "Dainabol",
+    "description": "A mild oral anabolic steroid favored for its ability to promote lean muscle mass and strength without significant side effects.",
+    "benefits": [
+      "Promotes lean muscle growth",
+      "Enhances strength and endurance",
+      "Reduces body fat",
+      "Minimal androgenic side effects"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/daina-10.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 22,
+    "name": "Helotestin",
+    "title": "Fluoxymesterone",
+    "description": "A powerful oral anabolic steroid known for its ability to significantly enhance strength and muscle mass, often used",
+    "benefits": [
+      "Dramatic increase in muscle mass",
+      "Significant strength enhancement",
+      "Improved red blood cell production",
+      "Rapid results within weeks"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/helotestin.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 23,
+    "name": "Stena-10",
+    "title": "Stenazol",
+    "description": "A powerful oral anabolic steroid known for its ability to significantly enhance strength and muscle mass, often used",
+    "benefits": [
+      "Dramatic increase in muscle mass",
+      "Significant strength enhancement",
+      "Improved red blood cell production",
+      "Rapid results within weeks"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/stena-10.jpeg"],
+    "type": "oral"
+  },
+  {
+    "id": 24,
+    "name": "T-3",
+    "title": "Liothyronine Sodium",
+    "description": "A synthetic thyroid hormone that can help boost metabolism and promote fat loss, often used in cutting cycles.",
+    "benefits": [
+      "Boosts metabolism",
+      "Promotes fat loss",
+      "Enhances energy levels",
+      "Improves cardiovascular performance"
+    ],
+    "contact": "Reach us for premium quality and cycle support.",
+    "images": ["/images/t-3.jpeg"],
+    "type": "oral"
   }
 ]
