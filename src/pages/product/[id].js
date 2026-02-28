@@ -159,10 +159,10 @@ export default function ProductDetail() {
                 </a>
               </div> */}
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-[#d3a96f]" />
                 <span>Delhi, India</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
